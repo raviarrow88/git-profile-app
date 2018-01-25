@@ -3,12 +3,13 @@ from __future__ import unicode_literals
 
 import json
 from django.shortcuts import render,HttpResponse
+import  requests
 
 
 def index(request):
     return HttpResponse("hello world");
 
-import  requests
+
 
 
 def profile(request):
